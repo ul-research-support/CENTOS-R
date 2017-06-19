@@ -1,4 +1,4 @@
-# vagrant-r
+# Vagrant-R
 Vagrant box that installs Shiny Server and relevant R packages
 
 *Note: To run this Vagrant box, you will need [Vagrant](https://www.vagrantup.com/downloads.html) and [VirtualBox](https://www.virtualbox.org/wiki/Downloads)*
