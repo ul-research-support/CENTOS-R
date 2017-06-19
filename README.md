@@ -9,6 +9,6 @@ Vagrant box that installs Shiny Server and relevant R packages
 
 - Navigate to your project root on your terminal or command prompt and run `vagrant up`
 
--Vagrant will create an Ubuntu environment, install and configure shiny-server, and install necessary R packages
+- Vagrant will create an Ubuntu environment, install and configure shiny-server, and install necessary R packages
 
 After the process ends, navigate to http://localhost:3838 and view your Shiny Server applications.
