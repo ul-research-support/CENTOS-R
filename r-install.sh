@@ -10,5 +10,4 @@ apt-get install -y r-base
 apt-get -y install libcurl4-gnutls-dev libxml2-dev libssl-dev
 sudo su - -c "R -e \"install.packages('devtools', repos='http://cran.rstudio.com/')\""
 sudo su - -c "R -e \"install.packages('tableone', repos='http://cran.rstudio.com/')\""
-sudo sh -C 'echo "cd /vagrant\nR" >> /home/vagrant/.bashrc'
-sudo sh -C 'echo ".First <- function(){library(utils)\nlibrary(stats)\nsource("/vagrant/script.R")}" >> /usr/lib/R/etc/Rprofile.site'
+sudo sh -c 'echo "cd /vagrant\nR" >> /home/vagrant/.bashrc'
